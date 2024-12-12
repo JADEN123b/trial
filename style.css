@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-image: url(WhatsApp\ Image\ 2024-12-06\ at\ 00.35.11_c668484d.jpg);
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+#todo-form {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+#todo-input {
+    flex-grow: 4;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+#add-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    border-radius: 20px;
+}
+#add-button:hover {
+    background-color: #11ce3a;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+li.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.task-text {
+    flex-grow: 1;
+}
+.complete-btn, .delete-btn {
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+.complete-btn {
+    background-color: #00ba25;
+    color: white;
+}
+.delete-btn {
+    background-color: #e31405;
+    color: white;
+}
